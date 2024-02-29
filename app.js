@@ -1,5 +1,5 @@
 function Tokenizer(){
-    this.dictionary = [];
+    this.dictionary = {};
     this.run = .....................
     this.on = ......................
     this.onDefault = ...............
@@ -9,9 +9,9 @@ function Tokenizer(){
 
 function testTokenizer(){
   
-  var t = ........;
-  var countA = 0;
-  var testString = ['H','o','l','a',' ','c','o','m',' ','a','n','e','u','?'];
+  let t = ........;
+  let countA = 0;
+  let testString = ['H','o','l','a',' ','c','o','m',' ','a','n','e','u','?'];
 
 
   t.on('a', .....);
